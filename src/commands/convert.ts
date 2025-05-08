@@ -10,7 +10,7 @@ interface ConvertOptions {
 // Using a free API: ExchangeRate-API (https://www.exchangerate-api.com)
 // IMPORTANT: You will need to sign up for a free API key at https://www.exchangerate-api.com/ 
 // and replace 'YOUR_API_KEY' below or use an environment variable.
-const API_KEY = '74872edc50fd46536ea099d4'; // Replace with your actual API key
+const API_KEY = 'APIKEY'; // Replace with your actual API key
 const API_URL = `https://v6.exchangerate-api.com/v6/${API_KEY}/pair`;
 
 export default async function convertCommand(
